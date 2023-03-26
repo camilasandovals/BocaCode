@@ -1,3 +1,5 @@
+//By M. Sandoval
+
 const myName = 'camila'
 
 const getName = () =>
