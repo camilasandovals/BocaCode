@@ -5,4 +5,4 @@
 
 const getCelsious = farenheit => console.log((farenheit-32)*(5/9))
 
-getCelsious(80)
+getCelsious(80) // Invoke the function 
