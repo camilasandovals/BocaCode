@@ -1,20 +1,20 @@
-//By M. Sandoval
+// By M. Sandoval
 
-// 1. Create an object called student, including 3 properties with their values
+// Create an object called "student" with 3 properties: "firstName", "lastName", and "age" and their respective values.
 const student = {
-    firstName : 'camila',
-    lastName : 'sandoval',
-    age : 26,
+firstName : 'camila', // The first name of the student is "Camila".
+lastName : 'sandoval', // The last name of the student is "Sandoval".
+age : 26, // The age of the student is 26.
 }
 
-// 2. Create a function that removes the first element of the array below and adds “kiwi” to the end of the array.
+// Create a function called "fruitsFunction" that takes an array of fruits as a parameter.
 let favoriteFruits = ['mango', 'lychee', 'strawberry', 'papaya']
 
 const fruitsFunction = favoriteFruits => {
-    favoriteFruits.shift()
-    favoriteFruits.push('kiwi')
-    console.log(favoriteFruits)
+favoriteFruits.shift() // Removes the first element of the array.
+favoriteFruits.push('kiwi') // Adds "kiwi" to the end of the array.
+console.log(favoriteFruits) // Prints the updated array of favorite fruits.
 }
 
+// Call the "fruitsFunction" with the "favoriteFruits" array as the parameter.
 fruitsFunction(favoriteFruits)
-
