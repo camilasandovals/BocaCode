@@ -1,5 +1,6 @@
 //By M. Sandoval
 
+//Define the object
 let car = {
     make: 'Audi',
     model: 'A3',
@@ -7,6 +8,8 @@ let car = {
     color: 'gray'
 }
 
-const { make, model, year, color } = car  //destructuring 
+//Destructure the object
+const { make, model, year, color } = car 
 
+//Now you can print to console the property as a variable
 console.log(make)
