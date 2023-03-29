@@ -1,7 +1,7 @@
 //By M. Sandoval
 
 // Define an array of objects representing articles, each with a name and a price
-const article = [
+const articles = [
     {articleName: 'book', price: 30},
     {articleName: 'tv', price: 1400},
     {articleName: 'phone', price: 800},
@@ -30,10 +30,9 @@ const findArticles = article.find(function(article){
 console.log(findArticles)
 
 //For Each: Use forEach() to loop through each article in the array
-const forEachArticle = article.forEach(function(article){
-    return article.articleName
+articles.forEach(function(article){
+    console.log(article.articleName)
 });
-console.log(forEachArticle)
 
 
 //Sum (returns true or false) to determine if any articles have a price less than or equal to 800
