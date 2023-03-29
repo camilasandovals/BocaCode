@@ -1,7 +1,7 @@
 //By M. Sandoval
 
 // Define an array of objects representing articles, each with a name and a price
-const articles = [
+const article = [
     {articleName: 'book', price: 30},
     {articleName: 'tv', price: 1400},
     {articleName: 'phone', price: 800},
@@ -30,7 +30,7 @@ const findArticles = article.find(function(article){
 console.log(findArticles)
 
 //For Each: Use forEach() to loop through each article in the array
-articles.forEach(function(article){
+article.forEach(function(article){
     console.log(article.articleName)
 });
 
