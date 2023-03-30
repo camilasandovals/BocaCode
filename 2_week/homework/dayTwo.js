@@ -18,3 +18,4 @@ console.log(getTotalScore(5,2))
 //3. Run a query in your terminal to print all of the data in the pets table.
 //check folder "PetstoreSQL" inside 2_week/homework
 
+//node .
