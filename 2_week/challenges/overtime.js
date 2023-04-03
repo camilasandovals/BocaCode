@@ -15,14 +15,16 @@ Your function should spit out:
 $ + earned that day (rounded to the nearest hundreth) */
 
 const overTime = (array) => {
-    if (array[1] <= 17 ){
-        return console.log((array[1] - array [0]) * array[2])
-    } else {
-        return console.log( ((17 - array[0])*30) + ((array[1] - 17) * array[2] * array[3]))
-    }     
-}
-overTime([9, 17, 30, 1.5]) // "$240.00"
+  if (array[1] <= 17) {
+    return console.log((array[1] - array[0]) * array[2]);
+  } else {
+    return console.log(
+      (17 - array[0]) * 30 + (array[1] - 17) * array[2] * array[3]
+    );
+  }
+};
+overTime([9, 17, 30, 1.5]); // "$240.00"
 
-overTime([16, 18, 30, 1.8]) // "$84.00"
+overTime([16, 18, 30, 1.8]); // "$84.00"
 
-overTime([13.25, 15, 30, 1.5]) // "$52.50"
+overTime([13.25, 15, 30, 1.5]); // "$52.50"
