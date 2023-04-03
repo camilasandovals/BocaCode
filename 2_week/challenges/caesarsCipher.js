@@ -5,13 +5,25 @@
 //Create a function that takes a string s (text to be encrypted) and an integer k (the rotation factor). It should return an encrypted string.
 
 //const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
-const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-
+const alphabet = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz';
+let newWord = ""
 
 const caesarCipher = (s , k, alphabet) => {
     for(let element of s){
-        console.log(alphabet.indexOf(element))
+        if (element == '-'){
+            newWord += element
+        }
+        else{
+            newWord += alphabet[alphabet.indexOf(element) + k]
+        }
     }
+    console.log(newWord)
 }
 
 caesarCipher("middle-Outz", 2, alphabet) // "okffng-Qwvb"
+
+// newWord += alphabet[alphabet.findIndex(
+//     (alphabet, element) => {
+//         return alphabet == element
+//     }
+// )]
