@@ -1,5 +1,7 @@
 //By M. Sandoval
 
+// sort, filter, find, findindex, some, every, foreach
+
 const fruit = [
   "apple",
   "pineapple",

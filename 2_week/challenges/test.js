@@ -5,5 +5,3 @@ const alphabet3 = 'abcdefghijklmnopqrstuvwxyz'.split('');
 console.log(alphabet)
 console.log(alphabet2)
 console.log(alphabet3)
-console.log(alphabet3[-1])
-console.log(alphabet[-1])

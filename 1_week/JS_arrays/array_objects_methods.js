@@ -1,5 +1,7 @@
 //By M. Sandoval
 
+//filter - map - find - foreach - sum 
+
 // Define an array of objects representing articles, each with a name and a price
 const article = [
     {articleName: 'book', price: 30},
