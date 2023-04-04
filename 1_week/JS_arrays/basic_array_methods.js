@@ -1,6 +1,8 @@
 /*By M. Sandoval
 Objective: Define basic array methods*/
 
+//pop, shift, unshift, push
+
 //1. Define array
 const sampleArray = [
     "yellow flower",
