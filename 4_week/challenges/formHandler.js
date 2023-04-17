@@ -10,3 +10,11 @@ function formHandler( firstName, lastName, email, phone){
 }
 
 formHandler("Maria", "Sandoval", "maria@gmail.com", "76346")
+
+
+function formHandler2 (firstName, lastName, email, phone ) {
+    const newPerson2 = {firstName, lastName, email, phone}
+    return newPerson2
+}
+
+formHandler2("Maria", "Sandoval", "maria@gmail.com", "76346")
