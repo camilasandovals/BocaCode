@@ -6,7 +6,7 @@ let pets = [
     {petName: 'lucas', age: 9, type: 'dog'},
 ]
 
-function isDog(array) {
+function isDog() {
 
     for (element of pets){
        if(element.type == 'dog') {
@@ -15,9 +15,25 @@ function isDog(array) {
         element.woof = false
        }
     }
-    return console.log(array)
+    return console.log(pets)
 }
 
 isDog(pets)
 
+function isDog2() {
+    pets = pets.map(pet => {
+        pet.woof = pet.type === 'dog'
+        return pet
+    })
 
+    return console.log(pets)
+}
+
+isDog2(pets)
+
+function isDog3() {
+    for(let i = 0; i< pets.length; i++){
+        pets[i].woof = pets[i].type === 'dog'
+    }
+    return console.log(pets)
+}
